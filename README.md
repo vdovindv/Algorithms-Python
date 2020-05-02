@@ -1,6 +1,6 @@
 # Algorithms in Python
 
-## Maximum_subarray
+## 1.Maximum_subarray
 Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return 
 its sum.
 
@@ -10,7 +10,7 @@ Input: [-2,1,-3,4,-1,2,1,-5,4],
 Output: 6
 Explanation: [4,-1,2,1] has the largest sum = 6.
 
-## Merge sort of lists
+## 2.Merge sort of lists
 Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.
 
 ### Example:
@@ -18,7 +18,7 @@ Merge two sorted linked lists and return it as a new list. The new list should b
 Input: 1->2->4, 1->3->4
 Output: 1->1->2->3->4->4
 
-## N_unique_int
+## 3.N_unique_int
 Given an integer n, return any array containing n unique integers such that they add up to 0.
 
  
@@ -29,7 +29,7 @@ Input: n = 5
 Output: [-7,-1,1,3,4]
 Explanation: These arrays also are accepted [-5,-1,1,2,3] , [-3,-1,2,-2,4].
 
-## Unique_paths
+## 4.Unique_paths
 A robot is located at the top-left corner of a m x n grid (marked 'Start' in the diagram below).
 
 The robot can only move either down or right at any point in time. The robot is trying to reach the bottom-right corner of the grid (marked 'Finish' in the diagram below).
@@ -46,7 +46,7 @@ From the top-left corner, there are a total of 3 ways to reach the bottom-right 
 2. Right -> Down -> Right
 3. Down -> Right -> Right
 
-## Valid parenthess
+## 5.Valid parenthess
 Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
 An input string is valid if:
@@ -71,7 +71,7 @@ Output: true
 Input: "(]"
 Output: false
 
-## kids_with_candies
+## 6.kids_with_candies
 
 Given the array candies and the integer extraCandies, where candies[i] represents the number of candies that the ith kid has.
 
@@ -88,7 +88,7 @@ Kid 3 has 5 candies and this is already the greatest number of candies among the
 Kid 4 has 1 candy and even if he or she receives all extra candies will only have 4 candies. 
 Kid 5 has 3 candies and if he or she receives at least 2 extra candies will have the greatest number of candies among the kids. 
 
-## max_difference
+## 7.max_difference
 You are given an integer num. You will apply the following steps exactly two times:
 
     -Pick a digit x (0 <= x <= 9).
@@ -108,7 +108,7 @@ Explanation: The first time pick x = 5 and y = 9 and store the new integer in a.
 The second time pick x = 5 and y = 1 and store the new integer in b.
 We have now a = 999 and b = 111 and max difference = 888
 
-## sum_two_numbers
+## 8.sum_two_numbers
 You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
 
 You may assume the two numbers do not contain any leading zero, except the number 0 itself.
